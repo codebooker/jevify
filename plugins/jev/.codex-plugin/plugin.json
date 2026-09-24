@@ -1,0 +1,32 @@
+{
+  "name": "jev",
+  "version": "0.3.0",
+  "description": "Stretch Codex plan usage with Jev: graph code search, a tool-call gate, an output trimmer and a skill router.",
+  "author": {
+    "name": "Jack T."
+  },
+  "keywords": [
+    "jev",
+    "tokens",
+    "usage",
+    "graphify",
+    "search"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./codex/mcp.json",
+  "interface": {
+    "displayName": "Jev",
+    "shortDescription": "Spend fewer tokens per task",
+    "longDescription": "Uses Jev, a fast classifier billed outside your plan, to rank code search results, skip redundant tool calls, condense large command output and pick the right skill.",
+    "developerName": "Jack T.",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "/jev",
+      "Where is authentication handled in this repo? Use jev_search first."
+    ]
+  }
+}

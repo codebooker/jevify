@@ -1,0 +1,9 @@
+#!/bin/sh
+# Starts the jev-search MCP server from whichever jev virtualenv exists (Codex or Claude home).
+for dir in "${JEV_HOME:-}" "${CODEX_HOME:-$HOME/.codex}/jev" "${CLAUDE_CONFIG_DIR:-$HOME/.claude}/jev"; do
+  if [ -n "$dir" ] && [ -x "$dir/venv/bin/python" ]; then
+    exec "$dir/venv/bin/python" "$(dirname "$0")/../jevsearch/server.py"
+  fi
+done
+echo "jev-search: run 'python3 $(dirname "$0")/setup.py venv' first" >&2
+exit 1

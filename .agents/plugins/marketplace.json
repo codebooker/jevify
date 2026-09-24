@@ -1,0 +1,12 @@
+{
+  "name": "jevify",
+  "plugins": [
+    {
+      "name": "jev",
+      "source": {
+        "source": "local",
+        "path": "./plugins/jev"
+      }
+    }
+  ]
+}

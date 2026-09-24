@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "jev-search": {
+      "command": "./scripts/jev-search",
+      "args": [],
+      "cwd": ".",
+      "env": {"JEV_PLATFORM": "codex"},
+      "env_vars": ["CODEX_HOME", "JEV_HOME"]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "jev",
+  "version": "0.3.0",
+  "description": "Stretch Claude plan usage with Jev: cost-tier routing, a Haiku scout, a skill router, a tool-call gate, graph code search and a context advisor.",
+  "author": {
+    "name": "Jack T."
+  },
+  "keywords": [
+    "jev",
+    "tokens",
+    "usage",
+    "routing",
+    "search"
+  ],
+  "skills": "./claude/skills/"
+}

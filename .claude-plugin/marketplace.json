@@ -1,0 +1,13 @@
+{
+  "name": "jevify",
+  "owner": {
+    "name": "codebooker"
+  },
+  "plugins": [
+    {
+      "name": "jev",
+      "source": "./plugins/jev",
+      "description": "Stretch your Claude or Codex plan: per-prompt model routing, a tool-call gate, an output trimmer and graph code search, decided by Jev."
+    }
+  ]
+}

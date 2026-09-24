@@ -1,0 +1,5 @@
+interface:
+  display_name: Jev
+  short_description: Jev token-saver status and controls
+policy:
+  allow_implicit_invocation: false
